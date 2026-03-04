@@ -1,0 +1,6 @@
+type: object
+properties:
+  answer: {type: string}
+  sources:
+    type: array
+    items: {type: string}

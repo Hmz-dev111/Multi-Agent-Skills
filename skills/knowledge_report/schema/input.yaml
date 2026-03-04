@@ -1,0 +1,6 @@
+type: object
+required: [question]
+properties:
+  question:
+    type: string
+    description: 用户的问题或检索主题

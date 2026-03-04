@@ -1,0 +1,32 @@
+# --- 1. 模型权重与大文件 (必须忽略) ---
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+# 忽略所有包含 'checkpoint' 的文件夹
+*checkpoint*/
+
+# --- 2. 数据集 (必须忽略) ---
+*.csv
+*.jsonl
+*.parquet
+data/
+dataset/
+
+# --- 3. Python 环境与缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# --- 4. 编译器与系统文件 ---
+.DS_Store
+.vscode/
+.idea/
+*.log
